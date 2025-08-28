@@ -1,0 +1,150 @@
+.menu-container {
+  max-width: 1000px;
+  margin: auto;
+  font-family: serif;
+  padding: 20px 10px;
+}
+
+.menu-header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.menu-header h1 {
+  margin-bottom: 10px;
+}
+
+.menu-header p {
+  color: #555;
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.category-buttons button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  min-width: 90px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-buttons button.active,
+.category-buttons button:hover {
+  border: none;
+  background-color: #a7b38a;
+  color: white;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.menu-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 0 8px #eee;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 6px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.menu-card h3 {
+  color: #b23339;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.menu-card strong {
+  font-weight: bold;
+}
+
+.menu-card p {
+  font-size: 12px;
+  color: #555;
+  margin-top: 6px;
+  flex-grow: 1;
+}
+
+.order-apps-section {
+  margin-top: 60px;
+  text-align: center;
+  padding: 40px 20px 40px 20px;
+  background-color: #fafaf6;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #eee;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-apps-section h2 {
+  margin-bottom: 10px;
+}
+
+.order-apps-section p {
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  color: #555;
+}
+
+.order-apps-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.order-apps-buttons button {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 0 8px #eee;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.order-apps-buttons button:hover {
+  background-color: #a7b38a;
+  color: white;
+}
+
+footer.menu-footer {
+  background-color: #3a3a3a;
+  color: white;
+  margin-top: 80px;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 14px;
+}
